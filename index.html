@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div id="card" class="card shadow">
+      <h1 id="title" class="text-center p-3">Temperature converter</h1>
+      <div class="row p-3">
+        <div class="col-6 p-2">
+          <p>Please enter either Temperature to convert</p>
+          <p id="text" class="fs-1">Temperature in °C</p>
+          <span><input class="form-control" id="celsius" /></span>
+        </div>
+        <p id="equal" class="p-3 text-center">=</p>
+        <div class="col-6 p-2">
+          <p id="text" class="fs-1">Temperature in °F</p>
+          <span><input class="form-control" id="fahrenheit" /></span>
+        </div>
+      </div>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>
